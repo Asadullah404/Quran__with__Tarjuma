@@ -19,13 +19,9 @@ const formatTime = (seconds: number) => {
   return `${mins}:${secs.toString().padStart(2, '0')}`;
 };
 
-export function MemorizationPanel({ 
-  currentSurahId, 
-  currentTime, 
-  onSeekTo 
-}: MemorizationPanelProps) {
+export function MemorizationPanel({ currentSurahId, currentTime, onSeekTo }: MemorizationPanelProps) {
   const [note, setNote] = useState('');
-  const { bookmarks, addBookmark, removeBookmark } = useMemorization();
+  const { bookmarks, addBookmark, removeBookmark, progress, markMemorized, resetProgress } = useMemorization();
 
   const handleAddBookmark = () => {
     if (currentSurahId) {
@@ -37,20 +33,39 @@ export function MemorizationPanel({
   const currentSurahBookmarks = bookmarks.filter(b => b.surahId === currentSurahId);
 
   return (
-    <Card className="h-full">
+    <Card className="h-full flex flex-col">
       <CardHeader className="pb-3">
         <CardTitle className="flex items-center gap-2 text-lg">
           <Bookmark className="w-5 h-5 text-primary" />
           Memorization Tools
         </CardTitle>
       </CardHeader>
-      
-      <CardContent className="space-y-4">
+
+      <CardContent className="flex-1 space-y-4 overflow-y-auto">
+        {/* Progress */}
+        <div className="space-y-1">
+          <h4 className="font-medium text-sm">Progress: {progress}%</h4>
+          <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
+            <div
+              className="h-full bg-primary transition-all duration-200"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+          <div className="flex gap-2 mt-2">
+            <Button size="sm" variant="outline" onClick={() => markMemorized(currentSurahId || 0)}>
+              Mark Memorized
+            </Button>
+            <Button size="sm" variant="outline" onClick={resetProgress}>
+              Reset
+            </Button>
+          </div>
+        </div>
+
         {/* Add Bookmark */}
         <div className="space-y-2">
           <h4 className="font-medium text-sm">Add Bookmark</h4>
-          <div className="flex gap-2">
-            <Clock className="w-4 h-4 text-muted-foreground mt-0.5" />
+          <div className="flex items-center gap-2">
+            <Clock className="w-4 h-4 text-muted-foreground" />
             <span className="text-sm font-mono">{formatTime(currentTime)}</span>
           </div>
           <Input
@@ -63,10 +78,9 @@ export function MemorizationPanel({
             size="sm"
             onClick={handleAddBookmark}
             disabled={!currentSurahId}
-            className="w-full"
+            className="w-full flex items-center justify-center gap-1"
           >
-            <Plus className="w-3 h-3 mr-1" />
-            Add Bookmark
+            <Plus className="w-3 h-3" /> Add Bookmark
           </Button>
         </div>
 
@@ -75,7 +89,6 @@ export function MemorizationPanel({
           <h4 className="font-medium text-sm">
             Bookmarks {currentSurahId && `(${currentSurahBookmarks.length})`}
           </h4>
-          
           {currentSurahBookmarks.length === 0 ? (
             <p className="text-xs text-muted-foreground text-center py-4">
               No bookmarks for this Surah
@@ -101,9 +114,7 @@ export function MemorizationPanel({
                           </span>
                         </div>
                         {bookmark.note && (
-                          <p className="text-xs text-foreground truncate">
-                            {bookmark.note}
-                          </p>
+                          <p className="text-xs text-foreground truncate">{bookmark.note}</p>
                         )}
                       </div>
                       <Button
@@ -130,8 +141,7 @@ export function MemorizationPanel({
           <h4 className="font-medium text-sm">Quick Actions</h4>
           <div className="grid grid-cols-2 gap-2">
             <Button variant="outline" size="sm" className="text-xs">
-              <Edit3 className="w-3 h-3 mr-1" />
-              A-B Loop
+              <Edit3 className="w-3 h-3 mr-1" /> A-B Loop
             </Button>
             <Button variant="outline" size="sm" className="text-xs">
               Review

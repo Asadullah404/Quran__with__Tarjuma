@@ -1,6 +1,4 @@
 import { Surah } from '@/types/quran';
-
-
 export const SURAHS: Surah[] = [
   {
     id: 1,
@@ -9,7 +7,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Opening',
     type: 'meccan',
     total_verses: 7,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/001-Al-Fatihah-The-Opening-سورة-الفاتحة.mp3',
+    audio_url: '/audio/1.mp3',
   },
   {
     id: 2,
@@ -18,7 +16,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Cow',
     type: 'medinan',
     total_verses: 286,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/002-Al-Baqarah-The-Cow-سورة-البقرة.mp3',
+    audio_url: '/audio/2.mp3',
   },
   {
     id: 3,
@@ -27,7 +25,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Family of Imran',
     type: 'medinan',
     total_verses: 200,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/003-Al-Imran-The-Family-of-Imran-سورة-آل-عمران.mp3',
+    audio_url: '/audio/3.mp3',
   },
   {
     id: 4,
@@ -36,7 +34,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Women',
     type: 'medinan',
     total_verses: 176,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/004-An-Nisa-The-Women-سورة-النساء.mp3',
+    audio_url: '/audio/4.mp3',
   },
   {
     id: 5,
@@ -45,7 +43,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Table spread with Food',
     type: 'medinan',
     total_verses: 120,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/005-Al-Maidah-The-Table-spread-with-Food-سورة-المائدة.mp3',
+    audio_url: '/audio/5.mp3',
   },
   {
     id: 6,
@@ -54,7 +52,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Cattle',
     type: 'meccan',
     total_verses: 165,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/006-Al-Anam-The-Cattle-سورة-الأنعام.mp3',
+    audio_url: '/audio/6.mp3',
   },
   {
     id: 7,
@@ -63,7 +61,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Heights',
     type: 'meccan',
     total_verses: 206,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/007-Al-Araf-The-Heights-سورة-الأعراف.mp3',
+    audio_url: '/audio/7.mp3',
   },
   {
     id: 8,
@@ -72,7 +70,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Spoils of War',
     type: 'medinan',
     total_verses: 75,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/008-Al-Anfal-The-Spoils-of-War-سورة-الأنفال.mp3',
+    audio_url: '/audio/8.mp3',
   },
   {
     id: 9,
@@ -81,7 +79,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Repentance',
     type: 'medinan',
     total_verses: 129,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/009-At-Taubah-The-Repentance-سورة-التوبة.mp3',
+    audio_url: '/audio/9.mp3',
   },
   {
     id: 10,
@@ -90,7 +88,7 @@ export const SURAHS: Surah[] = [
     translation: 'Jonah',
     type: 'meccan',
     total_verses: 109,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/010-Yunus-Jonah-سورة-يونس.mp3',
+    audio_url: '/audio/10.mp3',
   },
   {
     id: 11,
@@ -99,7 +97,7 @@ export const SURAHS: Surah[] = [
     translation: 'Hud',
     type: 'meccan',
     total_verses: 123,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/011-Hud-سورة-هود.mp3',
+    audio_url: '/audio/11.mp3',
   },
   {
     id: 12,
@@ -108,7 +106,7 @@ export const SURAHS: Surah[] = [
     translation: 'Joseph',
     type: 'meccan',
     total_verses: 111,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/012-Yusuf-Joseph-سورة-يوسف.mp3',
+    audio_url: '/audio/12.mp3',
   },
   {
     id: 13,
@@ -117,7 +115,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Thunder',
     type: 'medinan',
     total_verses: 43,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/013-Ar-Rad-The-Thunder-سورة-الرعد.mp3',
+    audio_url: '/audio/13.mp3',
   },
   {
     id: 14,
@@ -126,7 +124,7 @@ export const SURAHS: Surah[] = [
     translation: 'Abraham',
     type: 'meccan',
     total_verses: 52,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/014-Ibrahim-Abraham-سورة-إبراهيم.mp3',
+    audio_url: '/audio/14.mp3',
   },
   {
     id: 15,
@@ -135,7 +133,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Rocky Tract',
     type: 'meccan',
     total_verses: 99,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/015-Al-Hijr-The-Rocky-Tract-سورة-الحجر.mp3',
+    audio_url: '/audio/15.mp3',
   },
   {
     id: 16,
@@ -144,7 +142,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Bees',
     type: 'meccan',
     total_verses: 128,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/016-An-Nahl-The-Bees-سورة-النحل.mp3',
+    audio_url: '/audio/16.mp3',
   },
   {
     id: 17,
@@ -153,7 +151,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Night Journey',
     type: 'meccan',
     total_verses: 111,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/017-Al-Isra-The-Night-Journey-سورة-الإسراء.mp3',
+    audio_url: '/audio/17.mp3',
   },
   {
     id: 18,
@@ -162,7 +160,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Cave',
     type: 'meccan',
     total_verses: 110,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/018-Al-Kahf-The-Cave-سورة-الكهف.mp3',
+    audio_url: '/audio/18.mp3',
   },
   {
     id: 19,
@@ -171,7 +169,7 @@ export const SURAHS: Surah[] = [
     translation: 'Mary',
     type: 'meccan',
     total_verses: 98,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/019-Maryam-Mary-سورة-مريم.mp3',
+    audio_url: '/audio/19.mp3',
   },
   {
     id: 20,
@@ -180,7 +178,7 @@ export const SURAHS: Surah[] = [
     translation: 'Taha',
     type: 'meccan',
     total_verses: 135,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/020-Taha-سورة-طه.mp3',
+    audio_url: '/audio/20.mp3',
   },
   {
     id: 21,
@@ -189,7 +187,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Prophets',
     type: 'meccan',
     total_verses: 112,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/021-Al-Anbiya-The-Prophets-سورة-الأنبياء.mp3',
+    audio_url: '/audio/21.mp3',
   },
   {
     id: 22,
@@ -198,7 +196,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Pilgrimage',
     type: 'medinan',
     total_verses: 78,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/022-Al-Hajj-The-Pilgrimage-سورة-الحج.mp3',
+    audio_url: '/audio/22.mp3',
   },
   {
     id: 23,
@@ -207,7 +205,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Believers',
     type: 'meccan',
     total_verses: 118,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/023-Al-Muminoon-The-Believers-سورة-المؤمنون.mp3',
+    audio_url: '/audio/23.mp3',
   },
   {
     id: 24,
@@ -216,7 +214,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Light',
     type: 'medinan',
     total_verses: 64,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/024-An-Noor-The-Light-سورة-النور.mp3',
+    audio_url: '/audio/24.mp3',
   },
   {
     id: 25,
@@ -225,7 +223,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Criterion',
     type: 'meccan',
     total_verses: 77,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/025-Al-furqantheCriterion-.mp3',
+    audio_url: '/audio/25.mp3',
   },
   {
     id: 26,
@@ -234,7 +232,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Poets',
     type: 'meccan',
     total_verses: 227,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/026-Ash-Shuara-The-Poets-سورة-الشعراء.mp3',
+    audio_url: '/audio/26.mp3',
   },
   {
     id: 27,
@@ -243,7 +241,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Ants',
     type: 'meccan',
     total_verses: 93,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/027-An-Naml-The-Ants-سورة-النمل.mp3',
+    audio_url: '/audio/27.mp3',
   },
   {
     id: 28,
@@ -252,7 +250,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Stories',
     type: 'meccan',
     total_verses: 88,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/028-Al-Qasas-The-Stories-سورة-القصص.mp3',
+    audio_url: '/audio/28.mp3',
   },
   {
     id: 29,
@@ -261,7 +259,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Spider',
     type: 'meccan',
     total_verses: 69,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/029-Al-Ankaboot-The-Spider-سورة-العنكبوت.mp3',
+    audio_url: '/audio/29.mp3',
   },
   {
     id: 30,
@@ -270,7 +268,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Romans',
     type: 'meccan',
     total_verses: 60,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/030-Ar-Room-The-Romans-سورة-الروم.mp3',
+    audio_url: '/audio/30.mp3',
   },
   {
     id: 31,
@@ -279,7 +277,7 @@ export const SURAHS: Surah[] = [
     translation: 'Luqman',
     type: 'meccan',
     total_verses: 34,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/031-Luqman-سورة-لقمان.mp3',
+    audio_url: '/audio/31.mp3',
   },
   {
     id: 32,
@@ -288,7 +286,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Prostration',
     type: 'meccan',
     total_verses: 30,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/032-As-Sajdah-The-Prostration-سورة-السجدة.mp3',
+    audio_url: '/audio/32.mp3',
   },
   {
     id: 33,
@@ -297,7 +295,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Combined Forces',
     type: 'medinan',
     total_verses: 73,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/033-Al-Ahzab-The-Combined-Forces-سورة-الأحزاب.mp3',
+    audio_url: '/audio/33.mp3',
   },
   {
     id: 34,
@@ -306,7 +304,7 @@ export const SURAHS: Surah[] = [
     translation: 'Sheba',
     type: 'meccan',
     total_verses: 54,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/034-Saba-Sheba-سورة-سبأ.mp3',
+    audio_url: '/audio/34.mp3',
   },
   {
     id: 35,
@@ -315,7 +313,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Originator',
     type: 'meccan',
     total_verses: 45,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/035-Fatir-The-Orignator-سورة-فاطر.mp3',
+    audio_url: '/audio/35.mp3',
   },
   {
     id: 36,
@@ -324,7 +322,7 @@ export const SURAHS: Surah[] = [
     translation: 'Ya-seen',
     type: 'meccan',
     total_verses: 83,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/036-Ya-seen-سورة-يس.mp3',
+    audio_url: '/audio/36.mp3',
   },
   {
     id: 37,
@@ -333,7 +331,7 @@ export const SURAHS: Surah[] = [
     translation: 'Those Ranges in Ranks',
     type: 'meccan',
     total_verses: 182,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/037-As-Saaffat-Those-Ranges-in-Ranks-سورة-الصافات.mp3',
+    audio_url: '/audio/37.mp3',
   },
   {
     id: 38,
@@ -342,7 +340,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Letter Sad',
     type: 'meccan',
     total_verses: 88,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/038-Sad-The-Letter-Sad-سورة-ص.mp3',
+    audio_url: '/audio/38.mp3',
   },
   {
     id: 39,
@@ -351,7 +349,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Groups',
     type: 'meccan',
     total_verses: 75,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/039-Az-Zumar-The-Groups-سورة-الزمر.mp3',
+    audio_url: '/audio/39.mp3',
   },
   {
     id: 40,
@@ -360,7 +358,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Forgiver God',
     type: 'meccan',
     total_verses: 85,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/040-Ghafir-The-Forgiver-God-سورة-غافر.mp3',
+    audio_url: '/audio/40.mp3',
   },
   {
     id: 41,
@@ -369,7 +367,7 @@ export const SURAHS: Surah[] = [
     translation: 'Explained in Detail',
     type: 'meccan',
     total_verses: 54,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/041-Fussilat-Explained-in-Detail-سورة-فصلت.mp3',
+    audio_url: '/audio/41.mp3',
   },
   {
     id: 42,
@@ -378,7 +376,7 @@ export const SURAHS: Surah[] = [
     translation: 'Consultation',
     type: 'meccan',
     total_verses: 53,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/042-Ash-Shura-Consultation-سورة-الشورى.mp3',
+    audio_url: '/audio/42.mp3',
   },
   {
     id: 43,
@@ -387,7 +385,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Gold Adornment',
     type: 'meccan',
     total_verses: 89,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/043-Az-Zukhruf-The-Gold-Adornment-سورة-الزخرف.mp3',
+    audio_url: '/audio/43.mp3',
   },
   {
     id: 44,
@@ -396,7 +394,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Smoke',
     type: 'meccan',
     total_verses: 59,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/044-Ad-Dukhan-The-Smoke-سورة-الدخان.mp3',
+    audio_url: '/audio/44.mp3',
   },
   {
     id: 45,
@@ -405,7 +403,7 @@ export const SURAHS: Surah[] = [
     translation: 'Crouching',
     type: 'meccan',
     total_verses: 37,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/045-Al-Jathiya-Crouching-سورة-الجاثية.mp3',
+    audio_url: '/audio/45.mp3',
   },
   {
     id: 46,
@@ -414,7 +412,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Curved Sand-hills',
     type: 'meccan',
     total_verses: 35,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/046-Al-Ahqaf-The-Curved-Sand-hills-سورة-الأحقاف.mp3',
+    audio_url: '/audio/46.mp3',
   },
   {
     id: 47,
@@ -423,7 +421,7 @@ export const SURAHS: Surah[] = [
     translation: 'Muhammad',
     type: 'medinan',
     total_verses: 38,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/047-Muhammad-سورة-محمد.mp3',
+    audio_url: '/audio/47.mp3',
   },
   {
     id: 48,
@@ -432,7 +430,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Victory',
     type: 'medinan',
     total_verses: 29,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/048-Al-Fath-The-Victory-سورة-الفتح.mp3',
+    audio_url: '/audio/48.mp3',
   },
   {
     id: 49,
@@ -441,7 +439,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Dwellings',
     type: 'medinan',
     total_verses: 18,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/049-Al-Hujurat-The-Dwellings-سورة-الحجرات.mp3',
+    audio_url: '/audio/49.mp3',
   },
   {
     id: 50,
@@ -450,7 +448,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Letter Qaf',
     type: 'meccan',
     total_verses: 45,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/050-Qaf-The-Letter-Qaf-سورة-ق.mp3',
+    audio_url: '/audio/50.mp3',
   },
   {
     id: 51,
@@ -459,7 +457,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Wind that Scatter',
     type: 'meccan',
     total_verses: 60,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/051-Adh-Dhariyat-The-Wind-that-Scatter-سورة-الذاريات.mp3',
+    audio_url: '/audio/51.mp3',
   },
   {
     id: 52,
@@ -468,7 +466,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Mount',
     type: 'meccan',
     total_verses: 49,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/052-At-Tur-The-Mount-سورة-الطور.mp3',
+    audio_url: '/audio/52.mp3',
   },
   {
     id: 53,
@@ -477,7 +475,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Star',
     type: 'meccan',
     total_verses: 62,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/053-An-Najm-The-Star-سورة-النجم.mp3',
+    audio_url: '/audio/53.mp3',
   },
   {
     id: 54,
@@ -486,7 +484,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Moon',
     type: 'meccan',
     total_verses: 55,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/054-Al-Qamar-The-Moon-سورة-القمر.mp3',
+    audio_url: '/audio/54.mp3',
   },
   {
     id: 55,
@@ -495,7 +493,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Most Gracious',
     type: 'medinan',
     total_verses: 78,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/055-Ar-Rahman-The-Most-Graciouse-سورة-الرحمن.mp3',
+    audio_url: '/audio/55.mp3',
   },
   {
     id: 56,
@@ -504,7 +502,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Event',
     type: 'meccan',
     total_verses: 96,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/056-Al-Waqiah-The-Event-سورة-الواقعة.mp3',
+    audio_url: '/audio/56.mp3',
   },
   {
     id: 57,
@@ -513,7 +511,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Iron',
     type: 'medinan',
     total_verses: 29,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/057-Al-Hadid-The-Iron-سورة-الحديد.mp3',
+    audio_url: '/audio/57.mp3',
   },
   {
     id: 58,
@@ -522,7 +520,7 @@ export const SURAHS: Surah[] = [
     translation: 'She That Disputeth',
     type: 'medinan',
     total_verses: 22,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/058-Al-Mujadilah-She-That-Disputeth-سورة-المجادلة.mp3',
+    audio_url: '/audio/58.mp3',
   },
   {
     id: 59,
@@ -531,7 +529,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Gathering',
     type: 'medinan',
     total_verses: 24,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/059-Al-Hashr-The-Gathering-سورة-الحشر.mp3',
+    audio_url: '/audio/59.mp3',
   },
   {
     id: 60,
@@ -540,7 +538,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Woman to be examined',
     type: 'medinan',
     total_verses: 13,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/060-Al-Mumtahanah-The-Woman-to-be-examined-سورة-الممتحنة.mp3',
+    audio_url: '/audio/60.mp3',
   },
   {
     id: 61,
@@ -549,7 +547,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Row',
     type: 'medinan',
     total_verses: 14,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/061-As-Saff-The-Row-سورة-الصف.mp3',
+    audio_url: '/audio/61.mp3',
   },
   {
     id: 62,
@@ -558,7 +556,7 @@ export const SURAHS: Surah[] = [
     translation: 'Friday',
     type: 'medinan',
     total_verses: 11,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/062-Al-Jumuah-Friday-سورة-الجمعة.mp3',
+    audio_url: '/audio/62.mp3',
   },
   {
     id: 63,
@@ -567,7 +565,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Hypocrites',
     type: 'medinan',
     total_verses: 11,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/063-Al-Munafiqoon-The-Hypocrites-سورة-المنافقون.mp3',
+    audio_url: '/audio/63.mp3',
   },
   {
     id: 64,
@@ -576,7 +574,7 @@ export const SURAHS: Surah[] = [
     translation: 'Mutual Loss & Gain',
     type: 'medinan',
     total_verses: 18,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/064-At-Taghabun-Mutual-Loss-Gain-سورة-التغابن.mp3',
+    audio_url: '/audio/64.mp3',
   },
   {
     id: 65,
@@ -585,7 +583,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Divorce',
     type: 'medinan',
     total_verses: 12,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/065-At-Talaq-The-Divorce-سورة-الطلاق.mp3',
+    audio_url: '/audio/65.mp3',
   },
   {
     id: 66,
@@ -594,7 +592,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Prohibition',
     type: 'medinan',
     total_verses: 12,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/066-At-Tahrim-The-Prohibition-سورة-التحريم.mp3',
+    audio_url: '/audio/66.mp3',
   },
   {
     id: 67,
@@ -603,7 +601,7 @@ export const SURAHS: Surah[] = [
     translation: 'Dominion',
     type: 'meccan',
     total_verses: 30,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/067-Al-Mulk-Dominion-سورة-الملك.mp3',
+    audio_url: '/audio/67.mp3',
   },
   {
     id: 68,
@@ -612,7 +610,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Pen',
     type: 'meccan',
     total_verses: 52,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/068-Al-Qalam-The-Pen-سورة-القلم.mp3',
+    audio_url: '/audio/68.mp3',
   },
   {
     id: 69,
@@ -621,7 +619,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Inevitable',
     type: 'meccan',
     total_verses: 52,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/069-Al-Haaqqah-The-Inevitable-سورة-الحاقة.mp3',
+    audio_url: '/audio/69.mp3',
   },
   {
     id: 70,
@@ -630,7 +628,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Ways of Ascent',
     type: 'meccan',
     total_verses: 44,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/070-Al-Maarij-The-Ways-of-Ascent-سورة-المعارج.mp3',
+    audio_url: '/audio/70.mp3',
   },
   {
     id: 71,
@@ -639,7 +637,7 @@ export const SURAHS: Surah[] = [
     translation: 'Nooh',
     type: 'meccan',
     total_verses: 28,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/071-Nooh-سورة-نوح.mp3',
+    audio_url: '/audio/71.mp3',
   },
   {
     id: 72,
@@ -648,7 +646,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Jinn',
     type: 'meccan',
     total_verses: 28,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/072-Al-Jinn-The-Jinn-سورة-الجن.mp3',
+    audio_url: '/audio/72.mp3',
   },
   {
     id: 73,
@@ -657,7 +655,7 @@ export const SURAHS: Surah[] = [
     translation: 'The One wrapped in Garments',
     type: 'meccan',
     total_verses: 20,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/073-Al-Muzzammil-The-One-wrapped-in-Garments-سورة-المزمل.mp3',
+    audio_url: '/audio/73.mp3',
   },
   {
     id: 74,
@@ -666,7 +664,7 @@ export const SURAHS: Surah[] = [
     translation: 'The One Enveloped',
     type: 'meccan',
     total_verses: 56,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/074-Al-Muddaththir-The-One-Enveloped-سورة-المدثر.mp3',
+    audio_url: '/audio/74.mp3',
   },
   {
     id: 75,
@@ -675,7 +673,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Resurrection',
     type: 'meccan',
     total_verses: 40,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/075-Al-Qiyamah-The-Resurrection-سورة-القيامة.mp3',
+    audio_url: '/audio/75.mp3',
   },
   {
     id: 76,
@@ -684,7 +682,7 @@ export const SURAHS: Surah[] = [
     translation: 'Man',
     type: 'medinan',
     total_verses: 31,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/076-Al-Insan-Man-سورة-الإنسان.mp3',
+    audio_url: '/audio/76.mp3',
   },
   {
     id: 77,
@@ -693,7 +691,7 @@ export const SURAHS: Surah[] = [
     translation: 'Those sent forth',
     type: 'meccan',
     total_verses: 50,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/077-Al-Mursalat-Those-sent-forth-سورة-المرسلات.mp3',
+    audio_url: '/audio/77.mp3',
   },
   {
     id: 78,
@@ -702,7 +700,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Great News',
     type: 'meccan',
     total_verses: 40,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/078-An-Naba-The-Great-News-سورة-النبأ.mp3',
+    audio_url: '/audio/78.mp3',
   },
   {
     id: 79,
@@ -711,7 +709,7 @@ export const SURAHS: Surah[] = [
     translation: 'Those who Pull Out',
     type: 'meccan',
     total_verses: 46,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/079-An-Naziat-Those-who-Pull-Out-سورة-النازعات.mp3',
+    audio_url: '/audio/79.mp3',
   },
   {
     id: 80,
@@ -720,7 +718,7 @@ export const SURAHS: Surah[] = [
     translation: 'He frowned',
     type: 'meccan',
     total_verses: 42,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/080-Abasa-He-frowned-سورة-عبس.mp3',
+    audio_url: '/audio/80.mp3',
   },
   {
     id: 81,
@@ -729,7 +727,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Overthrowing',
     type: 'meccan',
     total_verses: 29,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/081-At-Takwir-The-Overthrowing-سورة-التكوير.mp3',
+    audio_url: '/audio/81.mp3',
   },
   {
     id: 82,
@@ -738,7 +736,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Cleaving',
     type: 'meccan',
     total_verses: 19,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/082-Al-Infitar-The-Cleaving-سورة-الانفطار.mp3',
+    audio_url: '/audio/82.mp3',
   },
   {
     id: 83,
@@ -747,7 +745,7 @@ export const SURAHS: Surah[] = [
     translation: 'Those Who Deal in Fraud',
     type: 'meccan',
     total_verses: 36,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/083-Al-Mutaffifin-Those-Who-Deal-in-Fraud-سورة-المطففين.mp3',
+    audio_url: '/audio/83.mp3',
   },
   {
     id: 84,
@@ -756,7 +754,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Splitting Asunder',
     type: 'meccan',
     total_verses: 25,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/084-Al-Inshiqaq-The-Splitting-Asunder-سورة-الانشقاق.mp3',
+    audio_url: '/audio/84.mp3',
   },
   {
     id: 85,
@@ -765,7 +763,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Big Stars',
     type: 'meccan',
     total_verses: 22,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/085-Al-buroojTheBigStars-.mp3',
+    audio_url: '/audio/85.mp3',
   },
   {
     id: 86,
@@ -774,7 +772,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Night-Comer',
     type: 'meccan',
     total_verses: 17,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/086-At-Tariq-The-Night-Comer-سورة-الطارق.mp3',
+    audio_url: '/audio/86.mp3',
   },
   {
     id: 87,
@@ -783,7 +781,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Most High',
     type: 'meccan',
     total_verses: 19,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/087-Al-Ala-The-Most-High-سورة-الأعلى.mp3',
+    audio_url: '/audio/87.mp3',
   },
   {
     id: 88,
@@ -792,7 +790,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Overwhelming',
     type: 'meccan',
     total_verses: 26,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/088-Al-Ghashiya-The-Overwhelming-سورة-الغاشية.mp3',
+    audio_url: '/audio/88.mp3',
   },
   {
     id: 89,
@@ -801,7 +799,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Dawn',
     type: 'meccan',
     total_verses: 30,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/089-Al-Fajr-The-Dawn-سورة-الفجر.mp3',
+    audio_url: '/audio/89.mp3',
   },
   {
     id: 90,
@@ -810,7 +808,7 @@ export const SURAHS: Surah[] = [
     translation: 'The City',
     type: 'meccan',
     total_verses: 20,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/090-Al-Balad-The-City-سورة-البلد.mp3',
+    audio_url: '/audio/90.mp3',
   },
   {
     id: 91,
@@ -819,7 +817,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Sun',
     type: 'meccan',
     total_verses: 15,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/091-Ash-Shams-The-Sun-سورة-الشمس.mp3',
+    audio_url: '/audio/91.mp3',
   },
   {
     id: 92,
@@ -828,7 +826,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Night',
     type: 'meccan',
     total_verses: 21,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/092-Al-Layl-The-Night-سورة-الليل.mp3',
+    audio_url: '/audio/92.mp3',
   },
   {
     id: 93,
@@ -837,7 +835,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Forenoon',
     type: 'meccan',
     total_verses: 11,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/093-Ad-Dhuha-The-Forenoon-سورة-الضحى.mp3',
+    audio_url: '/audio/93.mp3',
   },
   {
     id: 94,
@@ -846,7 +844,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Opening Forth',
     type: 'meccan',
     total_verses: 8,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/094-As-Sharh-The-Opening-Forth-سورة-الشرح.mp3',
+    audio_url: '/audio/94.mp3',
   },
   {
     id: 95,
@@ -855,7 +853,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Fig',
     type: 'meccan',
     total_verses: 8,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/095-At-Tin-The-Fig-سورة-التين.mp3',
+    audio_url: '/audio/95.mp3',
   },
   {
     id: 96,
@@ -864,7 +862,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Clot',
     type: 'meccan',
     total_verses: 19,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/096-Al-alaq-The-Clot-سورة-العلق.mp3',
+    audio_url: '/audio/96.mp3',
   },
   {
     id: 97,
@@ -873,7 +871,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Night of Decree',
     type: 'meccan',
     total_verses: 5,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/097-Al-Qadr-The-Night-of-Decree-سورة-القدر.mp3',
+    audio_url: '/audio/97.mp3',
   },
   {
     id: 98,
@@ -882,7 +880,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Clear Evidence',
     type: 'medinan',
     total_verses: 8,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/098-Al-Bayyinah-The-Clear-Evidence-سورة-البينة.mp3',
+    audio_url: '/audio/98.mp3',
   },
   {
     id: 99,
@@ -891,7 +889,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Earthquake',
     type: 'medinan',
     total_verses: 8,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/099-Az-Zalzalah-The-Earthquake-سورة-الزلزلة.mp3',
+    audio_url: '/audio/99.mp3',
   },
   {
     id: 100,
@@ -900,7 +898,7 @@ export const SURAHS: Surah[] = [
     translation: 'Those That Run',
     type: 'meccan',
     total_verses: 11,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/100-Al-adiyat-Those-That-Run-سورة-العاديات.mp3',
+    audio_url: '/audio/100.mp3',
   },
   {
     id: 101,
@@ -909,7 +907,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Striking Hour',
     type: 'meccan',
     total_verses: 11,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/101-Al-Qariah-The-Striking-Hour-سورة-القارعة.mp3',
+    audio_url: '/audio/101.mp3',
   },
   {
     id: 102,
@@ -918,7 +916,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Piling Up',
     type: 'meccan',
     total_verses: 8,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/102-At-Takathur-The-piling-Up-سورة-التكاثر.mp3',
+    audio_url: '/audio/102.mp3',
   },
   {
     id: 103,
@@ -927,7 +925,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Time',
     type: 'meccan',
     total_verses: 3,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/103-Al-Asr-The-Time-سورة-العصر.mp3',
+    audio_url: '/audio/103.mp3',
   },
   {
     id: 104,
@@ -936,7 +934,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Slanderer',
     type: 'meccan',
     total_verses: 9,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/104-Al-Humazah-The-Slanderer-سورة-الهمزة.mp3',
+    audio_url: '/audio/104.mp3',
   },
   {
     id: 105,
@@ -945,7 +943,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Elephant',
     type: 'meccan',
     total_verses: 5,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/105-Al-Fil-The-Elephant-سورة-الفيل.mp3',
+    audio_url: '/audio/105.mp3',
   },
   {
     id: 106,
@@ -954,7 +952,7 @@ export const SURAHS: Surah[] = [
     translation: 'Quraish',
     type: 'meccan',
     total_verses: 4,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/106-Quraish-سورة-قريش.mp3',
+    audio_url: '/audio/106.mp3',
   },
   {
     id: 107,
@@ -963,7 +961,7 @@ export const SURAHS: Surah[] = [
     translation: 'Small Kindnesses',
     type: 'meccan',
     total_verses: 7,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/107-Al-Maun-Small-Kindnesses-سورة-الماعون.mp3',
+    audio_url: '/audio/107.mp3',
   },
   {
     id: 108,
@@ -972,7 +970,7 @@ export const SURAHS: Surah[] = [
     translation: 'A River in Paradise',
     type: 'meccan',
     total_verses: 3,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/108-Al-Kauthor-A-River-in-Paradise-سورة-الكوثر.mp3',
+    audio_url: '/audio/108.mp3',
   },
   {
     id: 109,
@@ -981,7 +979,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Disbelievers',
     type: 'meccan',
     total_verses: 6,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/109-Al-Kafiroon-The-Disbelievers-سورة-الكافرون.mp3',
+    audio_url: '/audio/109.mp3',
   },
   {
     id: 110,
@@ -990,7 +988,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Help',
     type: 'medinan',
     total_verses: 3,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/110-An-Nasr-The-Help-سورة-النصر.mp3',
+    audio_url: '/audio/110.mp3',
   },
   {
     id: 111,
@@ -999,7 +997,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Palm Fibre',
     type: 'meccan',
     total_verses: 5,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/111-Al-Masad-The-Palm-Fibre-سورة-المسد.mp3',
+    audio_url: '/audio/111.mp3',
   },
   {
     id: 112,
@@ -1008,7 +1006,7 @@ export const SURAHS: Surah[] = [
     translation: 'Sincerity',
     type: 'meccan',
     total_verses: 4,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/112-Al-Ikhlas-Sincerity-سورة-الإخلاص.mp3',
+    audio_url: '/audio/112.mp3',
   },
   {
     id: 113,
@@ -1017,7 +1015,7 @@ export const SURAHS: Surah[] = [
     translation: 'The Daybreak',
     type: 'meccan',
     total_verses: 5,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/113-Al-Falaq-The-Daybreak-سورة-الفلق.mp3',
+    audio_url: '/audio/113.mp3',
   },
   {
     id: 114,
@@ -1026,10 +1024,8 @@ export const SURAHS: Surah[] = [
     translation: 'Mankind',
     type: 'meccan',
     total_verses: 6,
-    audio_url: 'https://www.emaanlibrary.com/wp-content/uploads/2018/04/114-An-Nas-Mankind-سورة-الناس.mp3',
+    audio_url: '/audio/114.mp3',
   }
-    // Add more surahs - for demo purposes, showing first 5
-  // You can add all 114 surahs here
 ];
 
 // Placeholder function to update audio URLs

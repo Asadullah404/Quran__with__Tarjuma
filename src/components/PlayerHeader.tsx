@@ -41,9 +41,10 @@ export function PlayerHeader({
         <div className="flex items-center justify-between flex-wrap gap-4">
           {/* Logo & Brand */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center animate-glow">
-              <span className="text-primary-foreground font-bold text-lg">ق</span>
-            </div>
+          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center animate-glow overflow-hidden">
+  <img src="/vite.png" alt="Logo" className="w-32 h-32 object-contain" />
+</div>
+
             <div>
               <h1 className="text-xl font-bold text-primary">
                 Qur'an Player
